@@ -21,7 +21,6 @@ export class ServersComponent implements OnInit {
   ngOnInit() {
   }
 
-
   onCreateServer() {
     this.serverCreated = true;
     this.servers.push(this.serverName);
